@@ -13,6 +13,8 @@
  * Error: Object is of type 'string | number'.
  * Property 'toUpperCase' does not exist on type 'number'.
  * Property 'toFixed' does not exist on type 'string'.
+ * This is because typescript can't understand the type of the variable at compile time.
+ * And without that, it can't allow us to perform operations on the variable.
  * To fix this error, we need to use type narrowing.
  */
 
