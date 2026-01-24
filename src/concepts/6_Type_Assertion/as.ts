@@ -30,7 +30,7 @@ let strLength2: number = (<string>someValue).length;
 /*
  * Why do we need it?
  * 1. When dealing with 'unknown' or 'any' types from external APIs.
- * 2. When you have more specific information about a type than TypeScript can infer.
+ * 2. When you have more specific information about a type than TypeScript can't infer.
  * 3. Working with DOM elements (e.g., document.getElementById returns HTMLElement | null).
  */
 
